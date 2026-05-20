@@ -21,11 +21,11 @@ function ContactFormContent() {
   const [success, setSuccess] = useState(false)
   const searchParams = useSearchParams()
   const sourceParam = searchParams.get("source")
-  
-  const source = sourceParam === "advertisers" 
-    ? "For Advertisers" 
-    : sourceParam === "publishers" 
-      ? "For Publishers & Traffic Sources" 
+
+  const source = sourceParam === "advertisers"
+    ? "For Advertisers"
+    : sourceParam === "publishers"
+      ? "For Publishers & Traffic Sources"
       : "General Inquiry"
 
   const [formData, setFormData] = useState({
@@ -98,7 +98,7 @@ function ContactFormContent() {
             <Input
               readOnly
               value={source}
-              className="h-12 bg-slate-50 dark:bg-black/50 border-yellow-500/20 text-slate-700 dark:text-slate-300 font-semibold cursor-not-allowed"
+              className="h-12 bg-slate-100 dark:bg-black/50 border border-slate-300 dark:border-yellow-500/20 text-slate-900 dark:text-slate-300 font-semibold cursor-not-allowed"
             />
           </div>
 
@@ -113,7 +113,7 @@ function ContactFormContent() {
                 value={formData.name}
                 onChange={handleInputChange}
                 required
-                className="h-12 bg-slate-50 dark:bg-black border-yellow-500/20 text-slate-900 dark:text-slate-100"
+                className="h-12 bg-white dark:bg-black border border-slate-300 dark:border-yellow-500/20 text-slate-900 dark:text-slate-100 placeholder:text-slate-400"
               />
             </div>
             <div className="space-y-2">
@@ -125,7 +125,7 @@ function ContactFormContent() {
                 placeholder="Company name"
                 value={formData.company}
                 onChange={handleInputChange}
-                className="h-12 bg-slate-50 dark:bg-black border-yellow-500/20 text-slate-900 dark:text-slate-100"
+                className="h-12 bg-white dark:bg-black border border-slate-300 dark:border-yellow-500/20 text-slate-900 dark:text-slate-100 placeholder:text-slate-400"
               />
             </div>
           </div>
@@ -141,12 +141,12 @@ function ContactFormContent() {
                 value={formData.email}
                 onChange={handleInputChange}
                 required
-                className="h-12 bg-slate-50 dark:bg-black border-yellow-500/20 text-slate-900 dark:text-slate-100"
+                className="h-12 bg-white dark:bg-black border border-slate-300 dark:border-yellow-500/20 text-slate-900 dark:text-slate-100 placeholder:text-slate-400"
               />
             </div>
             <div className="space-y-2">
               <Label htmlFor="phone">Phone Number</Label>
-              <div className="h-12 bg-slate-50 dark:bg-black border border-yellow-500/20 rounded-md px-3 flex items-center focus-within:ring-1 focus-within:ring-yellow-500">
+              <div className="h-12 bg-white dark:bg-black border border-slate-300 dark:border-yellow-500/20 rounded-md px-3 flex items-center focus-within:ring-1 focus-within:ring-yellow-500">
                 <PhoneInput
                   international
                   defaultCountry="US"
@@ -167,7 +167,7 @@ function ContactFormContent() {
               placeholder="Your handle for quick communication"
               value={formData.teamsId}
               onChange={handleInputChange}
-              className="h-12 bg-slate-50 dark:bg-black border-yellow-500/20 text-slate-900 dark:text-slate-100"
+              className="h-12 bg-white dark:bg-black border border-slate-300 dark:border-yellow-500/20 text-slate-900 dark:text-slate-100 placeholder:text-slate-400"
             />
           </div>
 
@@ -181,7 +181,7 @@ function ContactFormContent() {
               onChange={handleInputChange}
               required
               rows={5}
-              className="bg-slate-50 dark:bg-black border-yellow-500/20 text-slate-900 dark:text-slate-100"
+              className="bg-white dark:bg-black border border-slate-300 dark:border-yellow-500/20 text-slate-900 dark:text-slate-100 placeholder:text-slate-400"
             />
           </div>
 
@@ -198,13 +198,13 @@ function ContactFormContent() {
             <div className="space-y-2">
               <p className="text-sm uppercase tracking-[0.35em] text-slate-400">Call</p>
               <a href="tel:+18885550123" className="text-lg font-semibold text-slate-900 dark:text-white hover:text-yellow-400">
-                +1 (888) 555-0123
+                +919958241284
               </a>
             </div>
             <div className="space-y-2">
               <p className="text-sm uppercase tracking-[0.35em] text-slate-400">Email</p>
-              <a href="mailto:hello@leadzmedia.com" className="text-lg font-semibold text-slate-900 dark:text-white hover:text-yellow-400">
-                hello@leadzmedia.com
+              <a href="mailto:Leadadsmedia8@gmail.com" className="text-lg font-semibold text-slate-900 dark:text-white hover:text-yellow-400">
+                Leadadsmedia8@gmail.com
               </a>
             </div>
             <div className="space-y-2">
@@ -260,7 +260,7 @@ export default function ContactPage() {
                     Call Sales
                   </a>
                   <a
-                    href="mailto:hello@leadzmedia.com"
+                    href="mailto:Leadadsmedia8@gmail.com"
                     className="inline-flex items-center justify-center rounded-full border border-yellow-500/20 bg-slate-50 dark:bg-black/70 px-5 py-3 text-yellow-400 font-semibold hover:bg-yellow-500/10 transition"
                   >
                     Email Us
@@ -292,7 +292,7 @@ export default function ContactPage() {
           <Suspense fallback={<div>Loading form...</div>}>
             <ContactFormContent />
           </Suspense>
-          
+
         </div>
       </main>
 

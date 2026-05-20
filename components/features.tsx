@@ -45,7 +45,7 @@ export function Features() {
 
   return (
     <section id="services" ref={sectionRef} className="relative py-24 px-4 bg-slate-50 dark:bg-black">
-      <div className="absolute inset-0 overflow-hidden pointer-events-none">
+      <div className="absolute inset-0 overflow-hidden pointer-events-none hidden md:block">
         <div className="absolute -top-40 right-0 w-80 h-80 bg-yellow-500/10 rounded-full blur-3xl" />
       </div>
 

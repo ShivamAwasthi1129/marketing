@@ -9,6 +9,7 @@ import { ArrowRight, TrendingUp, Users, Target, Award, ChartLine } from "lucide-
 const heroPillars = [
   { icon: TrendingUp, label: "PERFORMANCE" },
   { icon: Users, label: "TRUSTED" },
+
   { icon: Target, label: "RESULTS" },
   { icon: Award, label: "GROWTH" },
 ]
@@ -73,29 +74,19 @@ export function Hero() {
             ease: "power3.out",
           },
           "-=0.4"
-        )
-        .from(
-          ".hero-image",
-          {
-            opacity: 0,
-            x: 40,
-            duration: 0.8,
-            ease: "power3.out",
-          },
-          "-=0.6"
-        )
+          )
     }, heroRef)
 
     return () => ctx.revert()
   }, [])
 
   return (
-    <section ref={heroRef} className="relative overflow-hidden px-4 py-20 sm:px-6 lg:px-8 bg-fixed bg-cover bg-center" style={{ backgroundImage: "url('https://images.unsplash.com/photo-1551434678-e076c223a692?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80')" }}>
+    <section ref={heroRef} className="relative overflow-hidden px-4 py-20 sm:px-6 lg:px-8 bg-scroll md:bg-fixed bg-cover bg-center" style={{ backgroundImage: "url('https://images.unsplash.com/photo-1551434678-e076c223a692?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80')" }}>
       {/* Background Overlay */}
-      <div className="absolute inset-0 bg-slate-50/95 dark:bg-black/80 z-0" />
+      <div className="absolute inset-0 bg-slate-50/75 dark:bg-black/80 z-0" />
 
-      <div className="absolute left-1/2 top-0 h-[420px] w-[420px] -translate-x-1/2 rounded-full bg-yellow-500/10 blur-3xl z-0" />
-      <div className="absolute bottom-0 right-0 h-[360px] w-[360px] rounded-full bg-yellow-500/10 blur-3xl z-0" />
+      <div className="absolute left-1/2 top-0 h-[420px] w-[420px] -translate-x-1/2 rounded-full bg-yellow-500/10 blur-3xl z-0 hidden md:block" />
+      <div className="absolute bottom-0 right-0 h-[360px] w-[360px] rounded-full bg-yellow-500/10 blur-3xl z-0 hidden md:block" />
 
       <div className="relative z-10 mx-auto max-w-7xl">
         <div className="grid gap-12 lg:grid-cols-[1.05fr_0.95fr] lg:items-center">
@@ -119,17 +110,17 @@ export function Hero() {
               </p>
             </div>
 
-            <div className="hero-actions flex flex-col gap-4 sm:flex-row sm:items-center">
+            <div className="hero-actions flex flex-row gap-2 sm:gap-4 sm:items-center">
               <Link
                 href="/contact"
-                className="inline-flex items-center justify-center gap-2 rounded-full bg-gradient-to-r from-yellow-500 to-yellow-600 px-8 py-4 text-sm font-semibold text-white shadow-md dark:shadow-none shadow-yellow-400/20 transition-transform duration-300 hover:-translate-y-0.5"
+                className="inline-flex items-center justify-center gap-2 rounded-full bg-gradient-to-r from-yellow-500 to-yellow-600 px-6 sm:px-8 py-3 sm:py-4 text-xs sm:text-sm font-semibold text-white shadow-md dark:shadow-none shadow-yellow-400/20 transition-transform duration-300 hover:-translate-y-0.5 flex-1 sm:flex-none"
               >
                 Get Started Today
-                <ArrowRight className="h-5 w-5" />
+                <ArrowRight className="h-4 w-4 sm:h-5 sm:w-5" />
               </Link>
               <Link
                 href="#services"
-                className="inline-flex items-center justify-center gap-2 rounded-full border border-yellow-500/40 bg-white dark:bg-[#0a0a0a]/70 px-8 py-4 text-sm font-semibold text-yellow-400 transition hover:border-yellow-500 hover:bg-yellow-500/10"
+                className="inline-flex items-center justify-center gap-2 rounded-full border border-yellow-500/40 bg-white dark:bg-[#0a0a0a]/70 px-6 sm:px-8 py-3 sm:py-4 text-xs sm:text-sm font-semibold text-yellow-400 transition hover:border-yellow-500 hover:bg-yellow-500/10 flex-1 sm:flex-none"
               >
                 Learn More
               </Link>
@@ -141,7 +132,7 @@ export function Hero() {
                 return (
                   <div
                     key={index}
-                    className="hero-pillars rounded-3xl border border-slate-200 dark:border-white/10 bg-white dark:bg-[#0a0a0a] p-5 text-center backdrop-blur-xl transition duration-300 hover:border-yellow-500/40 hover:bg-yellow-500/10"
+                    className="hero-pillars rounded-3xl border border-slate-200 dark:border-white/10 bg-white dark:bg-[#0a0a0a] p-5 text-center backdrop-blur-xl transition-colors duration-300 hover:border-yellow-500/40 hover:bg-yellow-500/10"
                   >
                     <div className="mx-auto mb-3 flex h-12 w-12 items-center justify-center rounded-2xl bg-yellow-500/10 text-yellow-400">
                       <Icon className="h-5 w-5" />
@@ -164,16 +155,16 @@ export function Hero() {
           </div>
         </div>
 
-        <div className="mt-12 rounded-full border border-yellow-500/10 bg-white dark:bg-[#0a0a0a]/80 px-4 py-4 shadow-sm dark:shadow-none shadow-slate-100">
-          <div className="grid gap-3 sm:grid-cols-4">
+        <div className="mt-8 sm:mt-12 rounded-2xl sm:rounded-full border border-yellow-500/10 bg-white dark:bg-[#0a0a0a]/80 p-4 shadow-sm dark:shadow-none shadow-slate-100">
+          <div className="grid gap-3 sm:gap-3 grid-cols-2 sm:grid-cols-4">
             {heroRow.map((item, index) => {
               const Icon = item.icon
               return (
-                <div key={index} className="flex items-center gap-3 rounded-2xl bg-slate-50 dark:bg-black/70 px-4 py-4 text-sm text-slate-600 dark:text-slate-300 transition group hover:bg-yellow-500/10 hover:text-white">
-                  <span className="inline-flex h-11 w-11 items-center justify-center rounded-2xl bg-yellow-500/10 text-yellow-400 group-hover:bg-yellow-500/15">
+                <div key={index} className="flex flex-col sm:flex-row items-center gap-2 sm:gap-3 rounded-2xl bg-slate-50 dark:bg-black/70 px-2 sm:px-4 py-3 sm:py-4 text-xs sm:text-sm text-slate-600 dark:text-slate-300 transition group hover:bg-yellow-500/10 hover:text-yellow-600 dark:hover:text-white">
+                  <span className="inline-flex h-10 w-10 sm:h-11 sm:w-11 items-center justify-center rounded-2xl bg-yellow-500/10 text-yellow-500 group-hover:bg-yellow-500/15 flex-shrink-0">
                     <Icon className="h-5 w-5" />
                   </span>
-                  <span className="font-semibold">{item.title}</span>
+                  <span className="font-semibold text-center sm:text-left block text-[11px] sm:text-sm leading-tight">{item.title}</span>
                 </div>
               )
             })}

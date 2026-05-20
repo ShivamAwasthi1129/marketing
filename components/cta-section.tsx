@@ -8,7 +8,7 @@ export function CTASection() {
       {/* Background Overlay */}
       <div className="absolute inset-0 bg-slate-50/95 dark:bg-[#0a0a0a]/95 z-0" />
 
-      <div className="absolute inset-0 pointer-events-none z-0">
+      <div className="absolute inset-0 pointer-events-none z-0 hidden md:block">
         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 h-[500px] w-[500px] rounded-full bg-yellow-500/10 blur-3xl" />
       </div>
 

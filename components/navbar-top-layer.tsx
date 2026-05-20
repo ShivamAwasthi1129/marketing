@@ -37,7 +37,7 @@ export function NavbarTopLayer() {
           <div className="hidden md:flex items-center space-x-6">
             <div className="flex items-center space-x-2 hover:text-slate-900 dark:text-white/80 transition-colors text-slate-900 dark:text-white">
               <Phone className="w-3 h-3 text-slate-900 dark:text-white" />
-              <span className="text-slate-900 dark:text-white">+91 98108 12345</span>
+              <span className="text-slate-900 dark:text-white">+91 99582 41284</span>
             </div>
             <div className="flex items-center space-x-2 hover:text-slate-900 dark:text-white/80 transition-colors text-slate-900 dark:text-white">
               <Mail className="w-3 h-3 text-slate-900 dark:text-white" />

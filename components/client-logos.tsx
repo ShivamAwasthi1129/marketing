@@ -107,6 +107,38 @@ export function ClientLogos() {
           color: inherit;
           text-align: center;
         }
+        @media (max-width: 768px) {
+          .slider {
+            height: 120px;
+          }
+          .slide {
+            width: 140px;
+            height: 120px;
+            padding: 0 10px;
+            gap: 12px;
+          }
+          .logo-container {
+            width: 80px;
+            height: 80px;
+            border-radius: 16px;
+            padding: 12px;
+          }
+          .slide span {
+            font-size: 0.8rem;
+          }
+          .slide-track {
+            width: calc(140px * ${clients.length * 2});
+            animation: scroll-mobile 25s linear infinite;
+          }
+          .slider::before, .slider::after {
+            height: 120px;
+            width: 80px;
+          }
+        }
+        @keyframes scroll-mobile {
+          0% { transform: translateX(0); }
+          100% { transform: translateX(calc(-140px * ${clients.length})); }
+        }
       `}} />
 
       <p className="text-sm uppercase tracking-[0.35em] text-yellow-500 mb-8 font-semibold">Trusted by Innovative Brands</p>

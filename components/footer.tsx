@@ -8,8 +8,8 @@ export function Footer() {
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_left,_rgba(234,179,8,0.18),transparent_18%),radial-gradient(circle_at_bottom_right,_rgba(245,158,11,0.12),transparent_18%)]" />
       <div className="relative container mx-auto px-4 py-16">
         <div className="rounded-[2rem] border border-yellow-500/10 bg-white dark:bg-[#0a0a0a]/80 p-8 shadow-md dark:shadow-none shadow-slate-950/40 backdrop-blur-xl">
-          <div className="grid gap-12 lg:grid-cols-[1.8fr_1fr_1fr_1fr]">
-            <div className="space-y-6">
+          <div className="grid gap-x-8 gap-y-12 grid-cols-2 lg:grid-cols-[1.8fr_1fr_1fr_1fr]">
+            <div className="col-span-2 lg:col-span-1 space-y-6">
               <div className="flex items-center gap-3">
                 <div className="flex h-12 w-12 items-center justify-center rounded-3xl bg-yellow-500/10 text-yellow-500 ring-1 ring-yellow-500/20">
                   <span className="text-xl font-black">L</span>
@@ -62,7 +62,7 @@ export function Footer() {
               </div>
             </div>
 
-            <div className="space-y-6">
+            <div className="col-span-1 space-y-6">
               <h3 className="font-montserrat font-semibold text-lg text-slate-900 dark:text-white">Services</h3>
               <ul className="space-y-3 text-sm text-slate-600 dark:text-slate-300">
                 <li>
@@ -93,7 +93,7 @@ export function Footer() {
               </ul>
             </div>
 
-            <div className="space-y-6">
+            <div className="col-span-1 space-y-6">
               <h3 className="font-montserrat font-semibold text-lg text-slate-900 dark:text-white">Company</h3>
               <ul className="space-y-3 text-sm text-slate-600 dark:text-slate-300">
                 <li>
@@ -124,7 +124,7 @@ export function Footer() {
               </ul>
             </div>
 
-            <div className="space-y-6">
+            <div className="col-span-2 lg:col-span-1 space-y-6">
               <h3 className="font-montserrat font-semibold text-lg text-slate-900 dark:text-white">Contact</h3>
               <div className="space-y-4 text-sm text-slate-600 dark:text-slate-300">
                 <div className="flex items-center gap-3">
@@ -133,7 +133,7 @@ export function Footer() {
                 </div>
                 <div className="flex items-center gap-3">
                   <Phone className="w-4 h-4 text-yellow-500" />
-                  <span>+1 (888) 555-0123</span>
+                  <span>+919958241284</span>
                 </div>
                 <div className="flex items-center gap-3">
                   <MapPin className="w-4 h-4 text-yellow-500" />

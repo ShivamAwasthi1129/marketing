@@ -47,13 +47,13 @@ export function NavbarMain() {
 
   return (
     <nav
-      className={`fixed left-0 right-0 top-0 z-40 transition-all duration-500 ease-in-out ${
+      className={`fixed left-0 right-0 top-0 z-40 transition-all duration-500 ease-in-out overflow-x-hidden ${
         isScrolled
-          ? "bg-slate-50 dark:bg-black/80 backdrop-blur-xl shadow-md dark:shadow-none shadow-black/30 border-b border-yellow-500/10"
-          : "bg-slate-50 dark:bg-black/80"
+          ? "bg-white/95 dark:bg-black/80 backdrop-blur-xl shadow-md dark:shadow-none shadow-slate-200/50 border-b border-slate-200 dark:border-yellow-500/10"
+          : "bg-white/90 dark:bg-black/80 backdrop-blur-md"
       }`}
     >
-      <div className="container mx-auto px-4">
+      <div className="container mx-auto px-4 max-w-full">
         <div
           className={`flex items-center justify-between transition-all duration-300 ${isScrolled ? "h-14" : "h-16"}`}
         >
@@ -83,7 +83,7 @@ export function NavbarMain() {
           {/* Desktop Actions */}
           <div className="hidden md:flex items-center space-x-4">
             <a
-              href="tel:+919810812345"
+              href="tel:+919958241284"
               className="inline-flex items-center justify-center rounded-full border border-yellow-500/20 bg-yellow-500/10 px-3 py-2 text-yellow-400 transition-all duration-300 hover:border-yellow-400/30 hover:bg-yellow-500/15 hover:text-white"
             >
               <Phone className="w-4 h-4" />
@@ -94,16 +94,16 @@ export function NavbarMain() {
 
           {/* Mobile Menu Button */}
           <button
-            className="md:hidden p-2 bg-white dark:bg-[#0a0a0a]/70 text-slate-100 rounded-xl border border-yellow-500/20 transition-colors"
+            className="md:hidden p-1.5 bg-white dark:bg-[#0a0a0a]/70 rounded-lg border border-yellow-500/20 transition-colors flex-shrink-0 z-50"
             onClick={() => setIsMenuOpen(!isMenuOpen)}
             aria-label="Toggle menu"
           >
-            <div className="relative w-6 h-6">
+            <div className="relative w-6 h-6 flex items-center justify-center">
               <Menu
-                className={`w-6 h-6 absolute transition-all duration-300 text-foreground ${isMenuOpen ? "rotate-90 opacity-0" : "rotate-0 opacity-100"}`}
+                className={`w-6 h-6 absolute transition-all duration-300 text-slate-900 dark:text-slate-100 ${isMenuOpen ? "rotate-90 opacity-0 scale-50" : "rotate-0 opacity-100 scale-100"}`}
               />
               <X
-                className={`w-6 h-6 absolute transition-all duration-300 text-foreground ${isMenuOpen ? "rotate-0 opacity-100" : "-rotate-90 opacity-0"}`}
+                className={`w-6 h-6 absolute transition-all duration-300 text-slate-900 dark:text-slate-100 ${isMenuOpen ? "rotate-0 opacity-100 scale-100" : "-rotate-90 opacity-0 scale-50"}`}
               />
             </div>
           </button>
@@ -112,10 +112,10 @@ export function NavbarMain() {
         {/* Mobile Menu */}
         <div
           className={`md:hidden overflow-hidden transition-all duration-500 ease-in-out ${
-            isMenuOpen ? "max-h-96 opacity-100 pb-4" : "max-h-0 opacity-0"
+            isMenuOpen ? "max-h-[28rem] opacity-100 pb-4" : "max-h-0 opacity-0"
           }`}
         >
-          <div className="border-t pt-4">
+          <div className="border-t border-yellow-500/10 pt-4">
             <div className="flex flex-col space-y-4">
               {navigation.map((item, index) => (
                 <Link
@@ -130,14 +130,18 @@ export function NavbarMain() {
                   {item.name}
                 </Link>
               ))}
-              <div className="flex items-center justify-start pt-4 border-t border-yellow-500/10">
+              <div className="flex items-center justify-between pt-4 border-t border-yellow-500/10">
                 <a
-                  href="tel:+919810812345"
+                  href="tel:+919958241284"
                   className="flex items-center gap-2 text-slate-700 dark:text-slate-200 hover:text-yellow-500 transition-colors"
                 >
                   <Phone className="w-4 h-4" />
-                  <span className="text-slate-700 dark:text-slate-200">Call Support</span>
+                  <span className="text-slate-700 dark:text-slate-200 font-medium">Call Support</span>
                 </a>
+                <div className="flex items-center gap-4">
+                  <ThemeToggle />
+                  {user ? <UserMenu user={user} onLogout={handleUserLogout} /> : null}
+                </div>
               </div>
             </div>
           </div>

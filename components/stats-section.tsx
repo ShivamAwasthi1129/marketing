@@ -50,7 +50,7 @@ export function StatsSection() {
       {/* Background Overlay */}
       <div className="absolute inset-0 bg-slate-50/95 dark:bg-[#0a0a0a]/95 z-0" />
 
-      <div className="absolute inset-0 pointer-events-none z-0">
+      <div className="absolute inset-0 pointer-events-none z-0 hidden md:block">
         <div className="absolute top-0 right-0 h-96 w-96 rounded-full bg-yellow-500/10 blur-3xl" />
       </div>
 
