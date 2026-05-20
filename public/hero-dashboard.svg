@@ -1,0 +1,49 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="screenGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#101828" />
+      <stop offset="100%" stop-color="#111827" />
+    </linearGradient>
+    <linearGradient id="panelGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#111827" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" rx="40" fill="#020617" />
+  <g opacity="0.25">
+    <circle cx="200" cy="160" r="120" fill="#F59E0B" />
+    <circle cx="960" cy="120" r="80" fill="#FACC15" />
+    <rect x="800" y="580" width="220" height="220" rx="32" fill="#334155" />
+  </g>
+  <rect x="120" y="100" width="960" height="560" rx="40" fill="url(#panelGrad)" stroke="#FBBF24" stroke-opacity="0.18" stroke-width="2" />
+  <rect x="140" y="120" width="920" height="460" rx="28" fill="url(#screenGrad)" />
+  <rect x="160" y="150" width="220" height="24" rx="12" fill="#111827" />
+  <circle cx="190" cy="162" r="5" fill="#FBBF24" />
+  <circle cx="212" cy="162" r="5" fill="#F8E3A3" />
+  <circle cx="234" cy="162" r="5" fill="#FEEBC8" />
+  <rect x="160" y="200" width="960" height="8" rx="4" fill="#1E293B" />
+  <rect x="160" y="230" width="250" height="22" rx="12" fill="#111827" />
+  <rect x="160" y="270" width="150" height="22" rx="12" fill="#111827" />
+  <rect x="160" y="320" width="820" height="280" rx="28" fill="#0F172A" />
+  <rect x="180" y="340" width="160" height="20" rx="10" fill="#FBBF24" />
+  <rect x="180" y="380" width="420" height="18" rx="9" fill="#94A3B8" />
+  <rect x="180" y="420" width="620" height="18" rx="9" fill="#64748B" />
+  <rect x="180" y="460" width="260" height="18" rx="9" fill="#94A3B8" />
+  <rect x="180" y="500" width="340" height="18" rx="9" fill="#64748B" />
+  <rect x="600" y="340" width="380" height="210" rx="20" fill="#111827" />
+  <rect x="624" y="364" width="140" height="18" rx="9" fill="#FBBF24" />
+  <rect x="624" y="400" width="320" height="14" rx="7" fill="#64748B" />
+  <rect x="624" y="426" width="280" height="14" rx="7" fill="#94A3B8" />
+  <rect x="624" y="452" width="180" height="14" rx="7" fill="#64748B" />
+  <rect x="624" y="490" width="280" height="12" rx="6" fill="#334155" />
+  <rect x="160" y="380" width="72" height="220" rx="16" fill="#FBBF24" />
+  <rect x="240" y="420" width="58" height="180" rx="14" fill="#FCD34D" />
+  <rect x="314" y="450" width="48" height="150" rx="12" fill="#FDE68A" />
+  <rect x="380" y="470" width="34" height="130" rx="10" fill="#FBBF24" />
+  <rect x="438" y="520" width="30" height="80" rx="8" fill="#FADC7A" />
+  <path d="M164 518C164 513.581 167.582 510 172 510H260C264.418 510 268 513.581 268 518V520H164V518Z" fill="#111827" />
+  <path d="M160 600H155C147.268 600 141 593.732 141 586V434H158V586C158 587.105 158.895 588 160 588H164V600Z" fill="#1E293B" />
+  <rect x="160" y="600" width="880" height="24" rx="12" fill="#020617" />
+  <circle cx="300" cy="140" r="20" fill="#FBBF24" opacity="0.12" />
+  <circle cx="620" cy="105" r="12" fill="#Fde68A" opacity="0.2" />
+</svg>
