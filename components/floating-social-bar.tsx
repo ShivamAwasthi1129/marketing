@@ -4,16 +4,16 @@ import { useState, useRef, useEffect } from "react"
 import { Facebook, Linkedin, Github, Twitter, Instagram, Plus } from "lucide-react"
 
 const socialLinks = [
-  { name: "Facebook", icon: Facebook, href: "https://facebook.com/onsmediagroup", color: "hover:text-yellow-500" },
+  // { name: "Facebook", icon: Facebook, href: "https://facebook.com/onsmediagroup", color: "hover:text-yellow-500" },
   {
     name: "LinkedIn",
     icon: Linkedin,
-    href: "https://linkedin.com/company/ons-media-group",
+    href: "https://www.linkedin.com/in/shivam-awasthi-b412a325a/",
     color: "hover:text-yellow-600",
   },
-  { name: "GitHub", icon: Github, href: "https://github.com/onsmediagroup", color: "hover:text-gray-900" },
-  { name: "Twitter", icon: Twitter, href: "https://twitter.com/onsmediagroup", color: "hover:text-blue-400" },
-  { name: "Instagram", icon: Instagram, href: "https://instagram.com/onsmediagroup", color: "hover:text-pink-600" },
+  { name: "GitHub", icon: Github, href: "https://github.com/ShivamAwasthi1129", color: "hover:text-gray-900" },
+  // { name: "Twitter", icon: Twitter, href: "https://twitter.com/onsmediagroup", color: "hover:text-blue-400" },
+  // { name: "Instagram", icon: Instagram, href: "https://instagram.com/onsmediagroup", color: "hover:text-pink-600" },
 ]
 
 export function FloatingSocialBar() {

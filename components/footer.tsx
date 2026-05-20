@@ -24,26 +24,26 @@ export function Footer() {
               </p>
               <div className="flex flex-wrap gap-3">
                 {[
+                  // {
+                  //   href: "https://facebook.com/LeadAdzMedia",
+                  //   label: "Facebook",
+                  //   icon: Facebook,
+                  // },
                   {
-                    href: "https://facebook.com/LeadAdzMedia",
-                    label: "Facebook",
-                    icon: Facebook,
-                  },
-                  {
-                    href: "https://linkedin.com/company/LeadAdzMedia",
+                    href: "https://www.linkedin.com/in/shivam-awasthi-b412a325a/",
                     label: "LinkedIn",
                     icon: Linkedin,
                   },
-                  {
-                    href: "https://twitter.com/LeadAdzMedia",
-                    label: "Twitter",
-                    icon: Twitter,
-                  },
-                  {
-                    href: "https://instagram.com/LeadAdzMedia",
-                    label: "Instagram",
-                    icon: Instagram,
-                  },
+                  // {
+                  //   href: "https://twitter.com/LeadAdzMedia",
+                  //   label: "Twitter",
+                  //   icon: Twitter,
+                  // },
+                  // {
+                  //   href: "https://instagram.com/LeadAdzMedia",
+                  //   label: "Instagram",
+                  //   icon: Instagram,
+                  // },
                 ].map((social) => {
                   const Icon = social.icon
                   return (
@@ -156,7 +156,8 @@ export function Footer() {
               </a>
               <span className="text-slate-600 dark:text-slate-300">|</span>
               <span>
-                Crafted for high-velocity B2B growth teams.
+                {/* Crafted for high-velocity B2B growth teams. */}
+                Design and development by <a href="https://www.linkedin.com/in/shivam-awasthi-b412a325a/" target="_blank" rel="noopener noreferrer" className="hover:text-yellow-500 transition-colors">Shivam Awasthi</a>.
               </span>
             </div>
           </div>

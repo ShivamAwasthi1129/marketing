@@ -80,7 +80,7 @@ function ContactFormContent() {
       <section className="rounded-[2rem] border border-yellow-500/15 bg-white dark:bg-[#0a0a0a]/70 p-8 shadow-md dark:shadow-none shadow-black/30">
         <div className="mb-8">
           <p className="text-sm uppercase tracking-[0.35em] text-yellow-400 mb-3">Send a message</p>
-          <h2 className="text-3xl font-black text-slate-900 dark:text-white">Tell us about your campaign</h2>
+          <h2 className="text-3xl font-black text-slate-900 dark:text-white">Contact Us</h2>
         </div>
 
         {success && (
