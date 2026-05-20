@@ -1,4 +1,4 @@
-# ONS Media Group
+# Lead Adz Media
 
 A Delhi-based digital marketing website built with Next.js that showcases SEO, performance monitoring, and client management solutions for modern brands.
 
