@@ -30,7 +30,7 @@ export function Footer() {
                   //   icon: Facebook,
                   // },
                   {
-                    href: "https://www.linkedin.com/in/shivam-awasthi-b412a325a/",
+                    href: "https://www.linkedin.com/company/leadadzmedia/",
                     label: "LinkedIn",
                     icon: Linkedin,
                   },
@@ -97,9 +97,9 @@ export function Footer() {
               <h3 className="font-montserrat font-semibold text-lg text-slate-900 dark:text-white">Company</h3>
               <ul className="space-y-3 text-sm text-slate-600 dark:text-slate-300">
                 <li>
-                  <a href="/about" className="hover:text-yellow-500 transition-colors">
+                  {/* <a href="/about" className="hover:text-yellow-500 transition-colors">
                     About
-                  </a>
+                  </a> */}
                 </li>
                 <li>
                   <a href="/services" className="hover:text-yellow-500 transition-colors">
@@ -112,14 +112,14 @@ export function Footer() {
                   </a>
                 </li>
                 <li>
-                  <a href="/pricing" className="hover:text-yellow-500 transition-colors">
+                  {/* <a href="/pricing" className="hover:text-yellow-500 transition-colors">
                     Pricing
-                  </a>
+                  </a> */}
                 </li>
                 <li>
-                  <a href="/blog" className="hover:text-yellow-500 transition-colors">
+                  {/* <a href="/blog" className="hover:text-yellow-500 transition-colors">
                     Resource Center
-                  </a>
+                  </a> */}
                 </li>
               </ul>
             </div>
@@ -157,7 +157,7 @@ export function Footer() {
               <span className="text-slate-600 dark:text-slate-300">|</span>
               <span>
                 {/* Crafted for high-velocity B2B growth teams. */}
-                Design and development by <a href="https://www.linkedin.com/in/shivam-awasthi-b412a325a/" target="_blank" rel="noopener noreferrer" className="hover:text-yellow-500 transition-colors">Shivam Awasthi</a>.
+                Design and developed by <a href="https://www.linkedin.com/in/shivam-awasthi-b412a325a/" target="_blank" rel="noopener noreferrer" className="hover:text-yellow-500 transition-colors">Shivam Awasthi</a>.
               </span>
             </div>
           </div>

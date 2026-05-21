@@ -150,7 +150,7 @@ function ServicesPage() {
                             {feature}
                           </div>); })}
                       </div>
-                      <link_1.default href={service.href} className="inline-flex items-center gap-2 text-sm font-semibold text-yellow-400 hover:text-slate-900 dark:text-white">
+                      <link_1.default href={"#"} className="inline-flex items-center gap-2 text-sm font-semibold text-yellow-400 hover:text-slate-900 dark:text-white">
                         Learn more
                         <lucide_react_1.ArrowRight className="h-4 w-4"/>
                       </link_1.default>

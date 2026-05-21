@@ -8,10 +8,10 @@ const socialLinks = [
   {
     name: "LinkedIn",
     icon: Linkedin,
-    href: "https://www.linkedin.com/in/shivam-awasthi-b412a325a/",
+    href: "https://www.linkedin.com/company/leadadzmedia/",
     color: "hover:text-yellow-600",
   },
-  { name: "GitHub", icon: Github, href: "https://github.com/ShivamAwasthi1129", color: "hover:text-gray-900" },
+  // { name: "GitHub", icon: Github, href: "https://github.com/ShivamAwasthi1129", color: "hover:text-gray-900" },
   // { name: "Twitter", icon: Twitter, href: "https://twitter.com/onsmediagroup", color: "hover:text-blue-400" },
   // { name: "Instagram", icon: Instagram, href: "https://instagram.com/onsmediagroup", color: "hover:text-pink-600" },
 ]

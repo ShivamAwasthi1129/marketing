@@ -130,11 +130,11 @@ export default function ServicesPage() {
                     <ArrowRight className="w-4 h-4 ml-2" />
                   </Button>
                 </Link>
-                <Link href="/pricing">
+                {/* <Link href="/pricing">
                   <Button size="lg" variant="outline" className="border-yellow-500/30 text-yellow-400 hover:bg-yellow-500/10">
                     Explore Pricing
                   </Button>
-                </Link>
+                </Link> */}
               </div>
             </motion.div>
           </div>
@@ -180,7 +180,7 @@ export default function ServicesPage() {
                           </div>
                         ))}
                       </div>
-                      <Link href={service.href} className="inline-flex items-center gap-2 text-sm font-semibold text-yellow-400 hover:text-slate-900 dark:text-white">
+                      <Link href={"#"} className="inline-flex items-center gap-2 text-sm font-semibold text-yellow-400 hover:text-slate-900 dark:text-white">
                         Learn more
                         <ArrowRight className="h-4 w-4" />
                       </Link>
@@ -250,11 +250,11 @@ export default function ServicesPage() {
                     <ArrowRight className="w-4 h-4 ml-2" />
                   </Button>
                 </Link>
-                <Link href="/seo-audit">
+                {/* <Link href="/seo-audit">
                   <Button size="lg" variant="outline" className="border-yellow-500/30 text-yellow-400 hover:bg-yellow-500/10">
                     Start Audit
                   </Button>
-                </Link>
+                </Link> */}
               </div>
             </motion.div>
           </div>

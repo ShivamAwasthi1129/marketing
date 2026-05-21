@@ -197,8 +197,8 @@ function ContactFormContent() {
           <div className="space-y-6 text-slate-600 dark:text-slate-300">
             <div className="space-y-2">
               <p className="text-sm uppercase tracking-[0.35em] text-slate-400">Call</p>
-              <a href="tel:+18885550123" className="text-lg font-semibold text-slate-900 dark:text-white hover:text-yellow-400">
-                +919958241284
+              <a href="tel:+91 99115 36340" className="text-lg font-semibold text-slate-900 dark:text-white hover:text-yellow-400">
+                +91 99115 36340
               </a>
             </div>
             <div className="space-y-2">
