@@ -245,7 +245,7 @@ export default function ContactPage() {
             <div className="pointer-events-none absolute -right-20 -top-20 h-72 w-72 rounded-full bg-yellow-500/10 blur-3xl" />
             <div className="relative z-10 grid gap-10 lg:grid-cols-[1.2fr_0.8fr] items-center">
               <div className="space-y-6">
-                <p className="text-sm uppercase tracking-[0.35em] text-yellow-400">Contact LeadAdzMedia</p>
+                <p className="text-sm uppercase tracking-[0.35em] text-yellow-400">Contact LeadAdsMedia</p>
                 <h1 className="text-4xl sm:text-5xl lg:text-6xl font-black text-slate-900 dark:text-white glitter-hover cursor-default">
                   Start a performance-led growth campaign that moves your business forward.
                 </h1>

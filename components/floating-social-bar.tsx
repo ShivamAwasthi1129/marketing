@@ -8,7 +8,7 @@ const socialLinks = [
   {
     name: "LinkedIn",
     icon: Linkedin,
-    href: "https://www.linkedin.com/company/leadadzmedia/",
+    href: "https://www.linkedin.com/company/LeadAdsMedia/",
     color: "hover:text-yellow-600",
   },
   // { name: "GitHub", icon: Github, href: "https://github.com/ShivamAwasthi1129", color: "hover:text-gray-900" },

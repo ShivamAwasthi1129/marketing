@@ -58,8 +58,8 @@ export function NavbarMain() {
           className={`flex items-center justify-between transition-all duration-300 ${isScrolled ? "h-14" : "h-16"}`}
         >
           <Link href="/" className="flex items-center gap-2">
-            <Image src="/logo.png" alt="LeadAdzMedia" width={75} height={50} className="object-contain block dark:hidden" />
-            <Image src="/logo1.png" alt="LeadAdzMedia" width={75} height={50} className="object-contain hidden dark:block" />
+            <Image src="/logo.png" alt="LeadAdsMedia" width={75} height={50} className="object-contain block dark:hidden" />
+            <Image src="/logo1.png" alt="LeadAdsMedia" width={75} height={50} className="object-contain hidden dark:block" />
           </Link>
 
           {/* Desktop Navigation */}

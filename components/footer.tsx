@@ -15,7 +15,7 @@ export function Footer() {
                   <span className="text-xl font-black">L</span>
                 </div>
                 <div>
-                  <span className="font-montserrat font-bold text-xl text-slate-900 dark:text-white">LeadAdzMedia</span>
+                  <span className="font-montserrat font-bold text-xl text-slate-900 dark:text-white">LeadAdsMedia</span>
                   <p className="text-sm text-slate-400">Performance marketing for ambitious brands.</p>
                 </div>
               </div>
@@ -25,22 +25,22 @@ export function Footer() {
               <div className="flex flex-wrap gap-3">
                 {[
                   // {
-                  //   href: "https://facebook.com/LeadAdzMedia",
+                  //   href: "https://facebook.com/LeadAdsMedia",
                   //   label: "Facebook",
                   //   icon: Facebook,
                   // },
                   {
-                    href: "https://www.linkedin.com/company/leadadzmedia/",
+                    href: "https://www.linkedin.com/company/LeadAdsMedia/",
                     label: "LinkedIn",
                     icon: Linkedin,
                   },
                   // {
-                  //   href: "https://twitter.com/LeadAdzMedia",
+                  //   href: "https://twitter.com/LeadAdsMedia",
                   //   label: "Twitter",
                   //   icon: Twitter,
                   // },
                   // {
-                  //   href: "https://instagram.com/LeadAdzMedia",
+                  //   href: "https://instagram.com/LeadAdsMedia",
                   //   label: "Instagram",
                   //   icon: Instagram,
                   // },
@@ -146,7 +146,7 @@ export function Footer() {
 
         <div className="border-t border-yellow-500/10 mt-12 pt-8">
           <div className="flex flex-col gap-4 md:flex-row md:items-center md:justify-between text-sm text-slate-400">
-            <span>© {currentYear} LeadAdzMedia. All rights reserved.</span>
+            <span>© {currentYear} LeadAdsMedia. All rights reserved.</span>
             <div className="flex flex-wrap items-center gap-4">
               <a href="/privacy" className="hover:text-yellow-500 transition-colors">
                 Privacy Policy

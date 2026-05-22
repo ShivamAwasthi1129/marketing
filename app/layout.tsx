@@ -19,10 +19,10 @@ const montserrat = Montserrat({
 })
 
 export const metadata: Metadata = {
-  title: "LeadAdzMedia - Digital Marketing & SEO Agency",
+  title: "LeadAdsMedia - Digital Marketing & SEO Agency",
   description:
-    "LeadAdzMedia is a digital marketing agency delivering SEO, paid media, creative content, analytics, and growth services.",
-  generator: "LeadAdzMedia",
+    "LeadAdsMedia is a digital marketing agency delivering SEO, paid media, creative content, analytics, and growth services.",
+  generator: "LeadAdsMedia",
 }
 
 export default function RootLayout({

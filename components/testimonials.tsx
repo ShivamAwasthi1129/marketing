@@ -10,7 +10,7 @@ const testimonials = [
     role: "Founder",
     company: "Pulse eCom",
     content:
-      "LeadAdzMedia transformed our affiliate performance. Their data-driven approach and real-time optimization helped us scale revenue while reducing customer acquisition costs by 40%.",
+      "LeadAdsMedia transformed our affiliate performance. Their data-driven approach and real-time optimization helped us scale revenue while reducing customer acquisition costs by 40%.",
     rating: 5,
     avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=200&q=80",
   },
@@ -19,7 +19,7 @@ const testimonials = [
     role: "Marketing Head",
     company: "Nova FMCG",
     content:
-      "The analytics dashboard and conversion tracking from LeadAdzMedia gave us complete visibility into campaign performance. Our lead quality improved 3x within the first month.",
+      "The analytics dashboard and conversion tracking from LeadAdsMedia gave us complete visibility into campaign performance. Our lead quality improved 3x within the first month.",
     rating: 5,
     avatar: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&w=200&q=80",
   },
@@ -28,7 +28,7 @@ const testimonials = [
     role: "Brand Manager",
     company: "TechReach Solutions",
     content:
-      "Working with LeadAdzMedia was a game-changer. Their creative teams and performance optimization experts delivered measurable results that exceeded our ROI targets.",
+      "Working with LeadAdsMedia was a game-changer. Their creative teams and performance optimization experts delivered measurable results that exceeded our ROI targets.",
     rating: 5,
     avatar: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=200&q=80",
   },
@@ -72,7 +72,7 @@ export function Testimonials() {
             Trusted by <span className="text-yellow-500">growth leaders</span>
           </h2>
           <p className="text-xl text-slate-600 dark:text-slate-300 max-w-3xl mx-auto leading-relaxed">
-            Hear from the brands that transformed their performance with LeadAdzMedia's affiliate and lead generation platform.
+            Hear from the brands that transformed their performance with LeadAdsMedia's affiliate and lead generation platform.
           </p>
         </div>
 

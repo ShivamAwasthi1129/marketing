@@ -56,7 +56,7 @@ export function StatsSection() {
 
       <div className="relative z-10 mx-auto max-w-4xl">
         <div className="text-center mb-16 space-y-4">
-          <p className="text-sm uppercase tracking-[0.35em] text-yellow-500 font-semibold">The LeadAdzMedia Advantage</p>
+          <p className="text-sm uppercase tracking-[0.35em] text-yellow-500 font-semibold">The LeadAdsMedia Advantage</p>
           <h2 className="stats-header-title text-4xl sm:text-5xl lg:text-6xl font-black text-slate-900 dark:text-white">
             Why <span className="text-yellow-500">Choose Us</span>
           </h2>

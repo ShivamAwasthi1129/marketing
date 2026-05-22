@@ -57,7 +57,7 @@ export default function SEOAuditPage() {
                 <div className="flex flex-col gap-6 lg:flex-row lg:items-center lg:justify-between">
                   <div>
                     <p className="text-sm uppercase tracking-[0.35em] text-yellow-400 mb-3">SEO Audit</p>
-                    <h1 className="text-4xl sm:text-5xl font-black text-slate-900 dark:text-white">LeadAdzMedia Website Audit Center</h1>
+                    <h1 className="text-4xl sm:text-5xl font-black text-slate-900 dark:text-white">LeadAdsMedia Website Audit Center</h1>
                     <p className="mt-4 max-w-3xl text-slate-600 dark:text-slate-300 text-lg leading-relaxed">
                       Diagnose page speed, accessibility, SEO, and performance issues with the same audit workflow
                       used by growth teams.
