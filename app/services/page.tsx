@@ -119,7 +119,7 @@ export default function ServicesPage() {
           <div className="mx-auto max-w-6xl text-center">
             <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8 }}>
               <p className="text-sm uppercase tracking-[0.35em] text-yellow-400 mb-4">Services</p>
-              <h1 className="text-4xl sm:text-5xl lg:text-6xl font-black text-slate-900 dark:text-white mb-6">LeadAdsMedia service suite for data-driven growth.</h1>
+              <h1 className="text-4xl sm:text-5xl lg:text-6xl font-black text-slate-900 dark:text-white mb-6">Clixnova Media service suite for data-driven growth.</h1>
               <p className="mx-auto max-w-3xl text-lg leading-relaxed text-slate-600 dark:text-slate-300 mb-8">
                 Build campaigns, scale paid media performance, and convert more leads with a modern service experience designed for growth teams.
               </p>

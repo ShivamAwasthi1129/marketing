@@ -197,14 +197,14 @@ function ContactFormContent() {
           <div className="space-y-6 text-slate-600 dark:text-slate-300">
             <div className="space-y-2">
               <p className="text-sm uppercase tracking-[0.35em] text-slate-400">Call</p>
-              <a href="tel:+91 99115 36340" className="text-lg font-semibold text-slate-900 dark:text-white hover:text-yellow-400">
-                +91 99115 36340
+              <a href="tel:+91 92179 02658" className="text-lg font-semibold text-slate-900 dark:text-white hover:text-yellow-400">
+                +91 92179 02658
               </a>
             </div>
             <div className="space-y-2">
               <p className="text-sm uppercase tracking-[0.35em] text-slate-400">Email</p>
-              <a href="mailto:Leadadsmedia8@gmail.com" className="text-lg font-semibold text-slate-900 dark:text-white hover:text-yellow-400">
-                Leadadsmedia8@gmail.com
+              <a href="mailto:Clixnovamedia@gmail.com" className="text-lg font-semibold text-slate-900 dark:text-white hover:text-yellow-400">
+                Clixnovamedia@gmail.com
               </a>
             </div>
             <div className="space-y-2">
@@ -245,7 +245,7 @@ export default function ContactPage() {
             <div className="pointer-events-none absolute -right-20 -top-20 h-72 w-72 rounded-full bg-yellow-500/10 blur-3xl" />
             <div className="relative z-10 grid gap-10 lg:grid-cols-[1.2fr_0.8fr] items-center">
               <div className="space-y-6">
-                <p className="text-sm uppercase tracking-[0.35em] text-yellow-400">Contact LeadAdsMedia</p>
+                <p className="text-sm uppercase tracking-[0.35em] text-yellow-400">Contact Clixnova Media</p>
                 <h1 className="text-4xl sm:text-5xl lg:text-6xl font-black text-slate-900 dark:text-white glitter-hover cursor-default">
                   Start a performance-led growth campaign that moves your business forward.
                 </h1>
@@ -260,7 +260,7 @@ export default function ContactPage() {
                     Call Sales
                   </a>
                   <a
-                    href="mailto:Leadadsmedia8@gmail.com"
+                    href="mailto:Clixnovamedia@gmail.com"
                     className="inline-flex items-center justify-center rounded-full border border-yellow-500/20 bg-slate-50 dark:bg-black/70 px-5 py-3 text-yellow-400 font-semibold hover:bg-yellow-500/10 transition"
                   >
                     Email Us

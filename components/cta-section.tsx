@@ -16,7 +16,7 @@ export function CTASection() {
         <div className="space-y-8">
           <p className="text-sm uppercase tracking-[0.35em] text-yellow-500 font-semibold">Ready To Grow Your Business?</p>
           <h2 className="text-5xl sm:text-6xl lg:text-7xl font-black leading-tight">
-            Partner with <span className="text-yellow-500">LeadAdsMedia</span>
+            Partner with <span className="text-yellow-500">Clixnova Media</span>
           </h2>
           <p className="max-w-2xl mx-auto text-slate-600 dark:text-slate-300 leading-relaxed text-xl">
             Scale your campaigns, reach quality audiences, and achieve measurable results through performance marketing.

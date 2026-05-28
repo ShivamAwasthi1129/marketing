@@ -15,7 +15,7 @@ export function Footer() {
                   <span className="text-xl font-black">L</span>
                 </div>
                 <div>
-                  <span className="font-montserrat font-bold text-xl text-slate-900 dark:text-white">LeadAdsMedia</span>
+                  <span className="font-montserrat font-bold text-xl text-slate-900 dark:text-white">Clixnova Media</span>
                   <p className="text-sm text-slate-400">Performance marketing for ambitious brands.</p>
                 </div>
               </div>
@@ -25,22 +25,22 @@ export function Footer() {
               <div className="flex flex-wrap gap-3">
                 {[
                   // {
-                  //   href: "https://facebook.com/LeadAdsMedia",
+                  //   href: "https://facebook.com/Clixnova Media",
                   //   label: "Facebook",
                   //   icon: Facebook,
                   // },
                   {
-                    href: "https://www.linkedin.com/company/LeadAdsMedia/",
+                    href: "https://www.linkedin.com/company/Clixnova Media/",
                     label: "LinkedIn",
                     icon: Linkedin,
                   },
                   // {
-                  //   href: "https://twitter.com/LeadAdsMedia",
+                  //   href: "https://twitter.com/Clixnova Media",
                   //   label: "Twitter",
                   //   icon: Twitter,
                   // },
                   // {
-                  //   href: "https://instagram.com/LeadAdsMedia",
+                  //   href: "https://instagram.com/Clixnova Media",
                   //   label: "Instagram",
                   //   icon: Instagram,
                   // },
@@ -129,11 +129,11 @@ export function Footer() {
               <div className="space-y-4 text-sm text-slate-600 dark:text-slate-300">
                 <div className="flex items-center gap-3">
                   <Mail className="w-4 h-4 text-yellow-500" />
-                  <span>Leadadsmedia8@gmail.com</span>
+                  <span>Clixnovamedia@gmail.com</span>
                 </div>
                 <div className="flex items-center gap-3">
                   <Phone className="w-4 h-4 text-yellow-500" />
-                  <span>+919958241284</span>
+                  <span>+9192179 02658</span>
                 </div>
                 <div className="flex items-center gap-3">
                   <MapPin className="w-4 h-4 text-yellow-500" />
@@ -146,7 +146,7 @@ export function Footer() {
 
         <div className="border-t border-yellow-500/10 mt-12 pt-8">
           <div className="flex flex-col gap-4 md:flex-row md:items-center md:justify-between text-sm text-slate-400">
-            <span>© {currentYear} LeadAdsMedia. All rights reserved.</span>
+            <span>© {currentYear} Clixnova Media. All rights reserved.</span>
             <div className="flex flex-wrap items-center gap-4">
               <a href="/privacy" className="hover:text-yellow-500 transition-colors">
                 Privacy Policy

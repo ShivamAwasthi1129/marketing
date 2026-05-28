@@ -53,7 +53,7 @@ export function Features() {
         <div className="feature-header text-center mb-16 space-y-6">
           <p className="text-sm uppercase tracking-[0.35em] text-yellow-600 dark:text-yellow-500 font-semibold">About Us</p>
           <h2 className="text-4xl sm:text-5xl lg:text-5xl font-black text-slate-900 dark:text-white leading-tight max-w-4xl mx-auto hover:text-yellow-600 dark:hover:text-yellow-500 transition-colors duration-300">
-            LeadAdsMedia is a fast-growing <span className="text-yellow-600 dark:text-yellow-500">performance marketing and affiliate network</span>
+            Clixnova Media is a fast-growing <span className="text-yellow-600 dark:text-yellow-500">performance marketing and affiliate network</span>
           </h2>
           <p className="text-lg sm:text-xl text-slate-800 dark:text-slate-200 font-medium max-w-3xl mx-auto leading-relaxed">
             Focused on helping advertisers and publishers achieve sustainable growth. Our team works closely with brands, agencies, and traffic partners to create campaigns that maximize ROI, improve conversions, and build long-term partnerships.
