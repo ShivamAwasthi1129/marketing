@@ -30,7 +30,7 @@ export function Footer() {
                   //   icon: Facebook,
                   // },
                   {
-                    href: "https://www.linkedin.com/company/Clixnova Media/",
+                    href: "https://www.linkedin.com/company/leadadsmedia/",
                     label: "LinkedIn",
                     icon: Linkedin,
                   },
