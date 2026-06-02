@@ -23,9 +23,6 @@ export const metadata: Metadata = {
   description:
     "Clixnova Media is a digital marketing agency delivering SEO, paid media, creative content, analytics, and growth services.",
   generator: "Clixnova Media",
-  icons: {
-    icon: "/favicon.ico",
-  },
 }
 
 export default function RootLayout({
