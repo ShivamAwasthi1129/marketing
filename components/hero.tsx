@@ -92,7 +92,7 @@ export function Hero() {
         <div className="grid gap-12 lg:grid-cols-[1.05fr_0.95fr] lg:items-center">
           <div className="space-y-8">
             <div className="hero-badge inline-flex items-center gap-3 rounded-full border border-yellow-500/20 bg-white dark:bg-[#0a0a0a]/70 px-4 py-3 text-sm text-yellow-400 shadow-sm dark:shadow-none shadow-slate-100">
-              <span className="inline-flex h-10 w-10 items-center justify-center rounded-2xl bg-yellow-500 text-white font-black">LA</span>
+              <span className="inline-flex h-10 w-10 items-center justify-center rounded-2xl bg-yellow-500 text-white font-black">CN</span>
               <div>
                 <p className="font-semibold text-slate-900 dark:text-white">Clixnova Media</p>
                 <p className="text-[11px] uppercase tracking-[0.4em] text-yellow-400/80">Affiliate & Performance Marketing</p>

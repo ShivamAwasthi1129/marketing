@@ -111,7 +111,7 @@ export default function ServicesPage() {
   return (
     <div className="min-h-screen bg-slate-50 dark:bg-black text-slate-100">
       <NavbarMain />
-      <FloatingSocialBar />
+      {/* <FloatingSocialBar /> */}
 
       <main className="pt-16 pb-20">
         <section className="relative overflow-hidden rounded-[2rem] border border-yellow-500/15 bg-white dark:bg-[#0a0a0a]/70 px-4 py-20 shadow-md dark:shadow-none shadow-slate-200">

@@ -12,7 +12,7 @@ export function Footer() {
             <div className="col-span-2 lg:col-span-1 space-y-6">
               <div className="flex items-center gap-3">
                 <div className="flex h-12 w-12 items-center justify-center rounded-3xl bg-yellow-500/10 text-yellow-500 ring-1 ring-yellow-500/20">
-                  <span className="text-xl font-black">L</span>
+                  <span className="text-xl font-black">C</span>
                 </div>
                 <div>
                   <span className="font-montserrat font-bold text-xl text-slate-900 dark:text-white">Clixnova Media</span>
@@ -129,7 +129,7 @@ export function Footer() {
               <div className="space-y-4 text-sm text-slate-600 dark:text-slate-300">
                 <div className="flex items-center gap-3">
                   <Mail className="w-4 h-4 text-yellow-500" />
-                  <span>Clixnovamedia@gmail.com</span>
+                  <span>info@clixnovamedia.com</span>
                 </div>
                 <div className="flex items-center gap-3">
                   <Phone className="w-4 h-4 text-yellow-500" />

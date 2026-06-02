@@ -236,3 +236,7 @@
   box-shadow: none;
   border-radius: 2px;
 }
+.dark .custom-phone-input select option {
+  background-color: #0a0a0a;
+  color: #f1f5f9;
+}

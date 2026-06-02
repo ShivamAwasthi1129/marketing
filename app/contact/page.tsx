@@ -42,6 +42,7 @@ function ContactFormContent() {
     setLoading(true)
 
     try {
+      // First save to local storage as fallback/history
       const messages = storage.getMessages()
       const newMessage: any = {
         id: `msg_${Date.now()}`,
@@ -57,6 +58,19 @@ function ContactFormContent() {
 
       messages.push(newMessage)
       storage.setMessages(messages)
+
+      // Send via API
+      const response = await fetch('/api/contact', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(newMessage),
+      });
+
+      if (!response.ok) {
+        throw new Error('Failed to send email');
+      }
 
       setSuccess(true)
       setFormData({ name: "", company: "", teamsId: "", email: "", message: "" })
@@ -203,8 +217,8 @@ function ContactFormContent() {
             </div>
             <div className="space-y-2">
               <p className="text-sm uppercase tracking-[0.35em] text-slate-400">Email</p>
-              <a href="mailto:Clixnovamedia@gmail.com" className="text-lg font-semibold text-slate-900 dark:text-white hover:text-yellow-400">
-                Clixnovamedia@gmail.com
+              <a href="mailto:info@clixnovamedia.com" className="text-lg font-semibold text-slate-900 dark:text-white hover:text-yellow-400">
+                info@clixnovamedia.com
               </a>
             </div>
             <div className="space-y-2">
@@ -237,7 +251,7 @@ export default function ContactPage() {
   return (
     <div className="min-h-screen bg-slate-50 dark:bg-black text-slate-100">
       <NavbarMain />
-      <FloatingSocialBar />
+      {/* <FloatingSocialBar /> */}
 
       <main className="pt-16 pb-20">
         <div className="mx-auto max-w-6xl px-4">
@@ -260,7 +274,7 @@ export default function ContactPage() {
                     Call Sales
                   </a>
                   <a
-                    href="mailto:Clixnovamedia@gmail.com"
+                    href="mailto:info@clixnovamedia.com"
                     className="inline-flex items-center justify-center rounded-full border border-yellow-500/20 bg-slate-50 dark:bg-black/70 px-5 py-3 text-yellow-400 font-semibold hover:bg-yellow-500/10 transition"
                   >
                     Email Us

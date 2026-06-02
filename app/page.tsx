@@ -13,7 +13,7 @@ export default function HomePage() {
   return (
     <div className="min-h-screen bg-background">
       <NavbarMain />
-      <FloatingSocialBar />
+      {/* <FloatingSocialBar /> */}
 
       <main className="pt-16">
         <Hero />
